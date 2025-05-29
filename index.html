@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Sharechat ₹120+₹200</title>
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Great Vibes', cursive;
+      font-family: 'Poppins', sans-serif;
       background: linear-gradient(to top right, #cceeff, #e6f7ff);
       margin: 0;
       padding: 20px;
@@ -20,8 +20,20 @@
     }
 
     h1 {
-      font-size: 32px;
+      font-family: 'Great Vibes', cursive;
+      font-size: 38px;
       margin: 10px 0 5px;
+      background: linear-gradient(270deg, #00f, #0f0, #f0f, #00f);
+      background-size: 800% 800%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradientText 8s ease infinite;
+    }
+
+    @keyframes gradientText {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
     }
 
     p {
@@ -33,19 +45,26 @@
     .card {
       display: flex;
       align-items: center;
-      background: #f1f3f5;
+      justify-content: flex-start;
+      background: #fff;
       padding: 12px 16px;
-      border-radius: 12px;
-      margin: 10px auto;
+      border-radius: 16px;
+      margin: 15px auto;
       max-width: 500px;
       text-decoration: none;
       color: #000;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      transition: background 0.3s ease;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      border: 3px solid;
+      background-clip: padding-box;
+      font-weight: 600;
+      transition: transform 0.3s, box-shadow 0.3s;
+      position: relative;
+      animation: pulseBorder 5s linear infinite;
     }
 
     .card:hover {
-      background: #e9ecef;
+      transform: scale(1.03);
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
     }
 
     .card img {
@@ -56,9 +75,15 @@
     }
 
     .card span {
-      font-size: 18px;
-      text-align: left;
-      font-family: 'Arial', sans-serif;
+      font-size: 17px;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    @keyframes pulseBorder {
+      0% { border-color: #00f; }
+      33% { border-color: #f0f; }
+      66% { border-color: #0f0; }
+      100% { border-color: #00f; }
     }
 
     .telegram-icon {
@@ -88,27 +113,27 @@
   <h1>Sharechat ₹120+₹200</h1>
   <p>Online Part-time Job</p>
 
-  <a href="http://rvcs.top/35CE1C0F59?utm_medium=paid&utm_source=fb&utm_id=120226273511270182&utm_content=120226273511080182&utm_term=120226273511050182&utm_campaign=120226273511270182" class="card" target="_blank">
+  <a href="http://rvcs.top/35CE1C0F59" class="card" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
     <span>Sharechat ₹120+₹200</span>
   </a>
 
-  <a href="http://tatary.top/72D7DF4CF5?utm_medium=paid&utm_source=fb&utm_id=120228607702050735&utm_content=120228608090470735&utm_term=120228607702060735&utm_campaign=120228607702050735" class="card" target="_blank">
+  <a href="http://tatary.top/72D7DF4CF5" class="card" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
     <span>New WhatsApp + Old Bank</span>
   </a>
 
-  <a href="http://myaye.top/E8D33526A2?utm_medium=paid&utm_source=fb&utm_id=120225037992280158&utm_content=120225037992320158&utm_term=120225037992270158&utm_campaign=120225037992280158" class="card" target="_blank">
+  <a href="http://myaye.top/E8D33526A2" class="card" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
     <span>₹179+₹300 Agent</span>
   </a>
 
-  <a href="http://pyayp.top/rinima?utm_medium=paid&utm_source=fb&utm_id=120225387647450090&utm_content=120225387647440090&utm_term=120225387647490090&utm_campaign=120225387647450090" class="card" target="_blank">
+  <a href="http://pyayp.top/rinima" class="card" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
     <span>Google Map 180₹+200₹</span>
   </a>
 
-  <a href="http://rvcs.top/35CE1C0F59?utm_medium=paid&utm_source=fb&utm_id=120226273511270182&utm_content=120226273511080182&utm_term=120226273511050182&utm_campaign=120226273511270182" class="card" target="_blank">
+  <a href="http://rvcs.top/35CE1C0F59" class="card" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
     <span>New Bank ₹150+₹200</span>
   </a>
